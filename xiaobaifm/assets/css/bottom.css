@@ -1,0 +1,15 @@
+div.bottom{
+    height: 200px;
+    width: 100%;
+    background: #1E1F1C;
+    position: relative;
+    margin-top: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: YouYuan;
+    text-align:center;
+}
+/*为了让左边是连续的*/
+body{
+    margin:0px;
+}

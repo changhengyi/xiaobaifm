@@ -1,0 +1,19 @@
+h1{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: YouYuan;
+}
+p{
+    color: #aaaaaa;
+    font-family: "宋体";
+}
+div.page {
+    width: 1100px;
+    margin: 0% auto auto auto;
+    position: relative;
+}
+div.primary {
+    width: 800px;
+    margin: 0% auto auto 0%;
+}
+

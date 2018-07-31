@@ -1,0 +1,58 @@
+div.sidebar {
+    width: 280px;
+    font-size: 15px;
+    color: #aaaaaa;
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+
+div.friendurl{
+    width: 280px;
+    height: 300px;
+    background: #1E1F1C;
+    position: relative;
+    margin: 0% auto auto 0%;
+}
+
+div.listgreenmark {
+    width: 10px;
+    height: 30px;
+    background: #B5E61D;
+    position: absolute;;
+    top:5px;
+}
+div.listhead{
+    width: 100px;
+    height: 25px;
+    position: absolute;;
+    top:5px;
+    left: 20px;
+    margin-top:5px ;
+    font-family: YouYuan;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+div.listword{
+    width: 240px;
+    height: 230px;
+    position: absolute;;
+    top:45px;
+    left: 30px;
+}
+
+a.listworda{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+
+a.listworda:hover{
+    color: #ffffff;
+}
+
+
+div.listline{
+    margin-top:5px ;
+}
