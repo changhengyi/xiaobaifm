@@ -1,0 +1,63 @@
+div.article {
+    width: 800px;
+    height: 200px;
+    background: #1E1F1C;
+    position: relative;
+    margin: 0px auto 10px 0px;
+}
+div.articlemark {
+    width: 10px;
+    height: 50px;
+    background: #B5E61D;
+    position: absolute;;
+    top:25px;
+}
+div.articlewordmark {
+    width: 80px;
+    height: 30px;
+    background:rgba(181, 230, 29, 0.5);
+    font-size: 16px;
+    color: #ffffff;
+    font-family: YouYuan;
+    position: absolute;
+    top:25px;
+    left:25px;
+    text-align:center;
+    line-height:30px;
+
+}
+div.articleimg {
+    width: 200px;
+    height: 150px;
+    position: absolute;;
+    background: #ffffff;
+    top:25px;
+    left: 25px;
+    overflow: hidden;
+}
+div.articlewords {
+    width: 525px;
+    height: 125px;
+    position: absolute;
+    top:25px;
+    left: 250px;
+}
+div.articleinfo {
+    width: 440px;
+    height: 20px;
+    position: absolute;;
+    bottom: 15px;
+    left: 250px;
+}
+div.readall {
+    width: 110px;
+    height: 30px;
+    position: absolute;;
+    right: 0px;
+    bottom: 15px;
+    overflow: hidden;
+}
+.time{
+    margin-top:0px ;
+    font-family: YouYuan;
+}

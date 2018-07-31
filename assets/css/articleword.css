@@ -1,0 +1,51 @@
+.articlepage {
+    width: 800px;
+    background: #1E1F1C;
+    position: relative;
+    margin: 0px auto auto 0px;
+}
+.articlehead {
+    width: 800px;
+    height: 100px;
+    position: relative;
+    margin: 0px auto auto 0px;
+}
+.ahgreenmark{
+    width: 15px;
+    height: 80px;
+    background: #B5E61D;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+.ahline{
+    width: 760px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    font-family: YouYuan;
+    color: #ffffff;
+}
+.ahinfo{
+    width: 760px;
+    height: 20px;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-size: 15px;
+    font-family: YouYuan;
+    color: #aaaaaa;
+}
+.articleword{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:20px;
+    padding-bottom: 50px;
+}
+
+#articleword p{
+    font-size: 16px;
+    line-height:25px;
+}

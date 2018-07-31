@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<!--此文件为游戏-->
+
+<head>
+    <meta charset="utf-8">
+    <title>游戏|小白电台</title>
+    <link rel="icon" href="images/logo_ico.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/logo_ico.ico" type="image/x-icon" />
+    <!--调用CSS样式表-->
+    <link rel="stylesheet" type="text/css" href="assets/css/head.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/page.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bottom.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/article.css">
+
+    <style>
+        body {
+            background-color: #090909;
+            background: url(images/starsky2.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+    <script>
+        window.alert("敬请期待！\nComing Soon!");
+    </script>
+</head>
+
+<body>
+    <div class="head" id="head">
+        <img src="images/logoinweb.png" height="110" width="337" style="margin: 100px auto auto 70px; display: inline;">
+        <div class="number" id="fmnumber" style="left:-42px;">
+            <img src="images/fmnumlong.png" height="60" width="1400">
+        </div>
+        <div style="border: 0.5px solid gray;width:1100px;height:0px"></div>
+        <div class="menu">
+            <ul>
+                <li onmouseover="setTab(0)" onmouseout="setTab(4)">
+                    <a href="index.html">首页</a>
+                </li>
+                <li onmouseover="setTab(1)" onmouseout="setTab(4)">
+                    <a href="technology.html">技术</a>
+                </li>
+                <li onmouseover="setTab(2)" onmouseout="setTab(4)">
+                    <a href="math.html">数学</a>
+                </li>
+                <li onmouseover="setTab(3)" onmouseout="setTab(4)">
+                    <a href="life.html">生活</a>
+                </li>
+                <li onmouseover="setTab(4)">
+                    <a style="color: #B5E61D;">游戏</a>
+                </li>
+                <li onmouseover="setTab(5)" onmouseout="setTab(4)">
+                    <a href="aboutme.html">关于</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--调用JS脚本-->
+    <div class="bottom" style="position: absolute;bottom: 0px;">
+        <br>
+        <div>
+            <img src="images/logo.png" alt="hello，互联网的朋友！" height="100" width="100">
+        </div>
+        Xiaobaifm.com
+        <br> 还有更多内容值得期待！
+    </div>
+    <!--调用JS脚本-->
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/article.js"></script>
+</body>
+
+</html>
