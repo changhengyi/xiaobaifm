@@ -18,6 +18,10 @@
     <script src="assets/js/menu.js"></script>
     <script src="assets/js/article.js"></script>
     <script src="assets/js/bgpic.js"></script>
+    <!--代码高亮-->
+    <script src="assets/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles/monokai.css" />
 
     <style>
         body {
@@ -76,11 +80,36 @@
                         这一篇博客要做出来还有一个待解决的网站技术需要学会，我想在自己的网站中加入内置的代码框，还可以显示代码高亮的那种，不过现在还没来的及研究。
                         <br>总的来说我的网站因为所有的技术都是自己一行一行代码写得，没有用任何模板，做起来也会很慢。还请大家谅解。
                         <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
+                        <pre>
+                            <code class="javascrip">
+//这是一个测试，试一下代码高亮在网页中的显示效果
+var speed;
+var timemenu;
+function setTab(n) {
+    speed = 0;
+    var pos = -330 + 72 * n;
+    move(pos);
+}
+function move(e) {
+    var divfm = document.getElementById('fmnumber');
+    var divmain = document.getElementById('head');
+    var curpos = divfm.offsetLeft - divmain.offsetLeft;
+    clearInterval(timemenu);
+    timemenu = setInterval(function () {
+        curpos = divfm.offsetLeft - divmain.offsetLeft;
+        //改变位置，如果向左则e==500， 向上取整， 否则向右，向下取整，速度=(终点位置 - 当前位置)/一个数
+        e >= curpos ? speed = Math.ceil((e - curpos) / 10) : speed = Math.floor((e - curpos) / 10)
+
+        if (e == curpos) {//达到，关闭定时器
+            clearInterval(timemenu);
+        }
+        else {
+            divfm.style.left = curpos + speed + 'px';
+        }
+    }, 30);
+};
+                            </code>
+                        </pre>
                         <br>
                         <br>
                         <br>
