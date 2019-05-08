@@ -1,0 +1,30 @@
+[Design Root]
+Version=1.0.0
+[Directory]
+tmp.Sch=Sch
+PcbLib.lib=PCBLIB
+Schlib.lib=SchLib
+tmp2.Sch=Sch
+tmp.REP=Text
+tmp.cfg=Text
+PCB1.PCB=PCB
+PCB1.DRC=Text
+WARNINGS.SYN=Text
+[tmp.Sch]
+Editor Kind=Sch
+[PcbLib.lib]
+Editor Kind=PCBLIB
+[Schlib.lib]
+Editor Kind=SchLib
+[tmp2.Sch]
+Editor Kind=Sch
+[tmp.REP]
+Editor Kind=Text
+[tmp.cfg]
+Editor Kind=Text
+[PCB1.PCB]
+Editor Kind=PCB
+[PCB1.DRC]
+Editor Kind=Text
+[WARNINGS.SYN]
+Editor Kind=Text
