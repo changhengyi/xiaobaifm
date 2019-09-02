@@ -1,3 +1,3 @@
 # xiaobaifm
-### v1.0
+### v1.1
 This is my blog,just for learning some new knowledge.
